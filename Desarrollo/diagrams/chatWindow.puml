@@ -1,0 +1,21 @@
+@startuml
+User --> Front: Start chat
+Front --> Back: Query initial answer
+Back --> DB: Query PastContext
+DB --> Back: Send Prompt
+Back --> LLM: Send Prompt
+LLM --> Back: Answer
+Back --> Front: Answer
+Front --> User: Show answer
+User --> Front: Write Answer
+Front --> Back: Send answer
+Back --> LLM: Send prompt
+LLM --> Back: Answer
+Back ---> Front: Answer
+Front ---> User: Show Answer
+User --> Front: End chat
+Front --> User: Feedback form
+User --> Front: Feedback info
+Front --> Back: Feedback info
+Back --> DB: Feedback info
+@enduml
