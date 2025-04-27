@@ -18,6 +18,7 @@ La aplicación integra tres actores principales:
 
 El estudiante interactúa con la IA mediante chat o llamada. La IA ofrece sugerencias y recordatorios personalizados, realiza seguimiento emocional (estrés, desmotivación, desconexión, ansiedad) y hace preguntas conversacionales sobre tareas pendientes, rendimiento académico y bienestar general. Además, brinda recomendaciones personalizadas para tareas, exámenes y proyectos.
 
+Contaremos con un modelo propio de inteligencia artificial, desarrollado a partir de un modelo existente (DeepSeek) mediante técnicas de destilación y fine-tuning. Este proceso nos permitirá adaptar y optimizar el modelo para que sea más ligero y esté especializado en el acompañamiento psicológico de los estudiantes. De esta manera, la solución será exclusiva para la universidad, sin depender de servicios de terceros, garantizando mayor privacidad, control y personalización en la atención a los usuarios.
 ## Sistema de Protocolos
 
 Si la IA detecta altos niveles de estrés, desmotivación, desconexión o ansiedad, activa un sistema de tres protocolos:
